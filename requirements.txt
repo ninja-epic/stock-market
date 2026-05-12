@@ -4,5 +4,5 @@ pandas
 numpy
 plotly
 ta
-git+https://github.com/twopirllc/pandas-ta.git@development
+https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip
 requests
