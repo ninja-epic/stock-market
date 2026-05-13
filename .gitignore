@@ -1,9 +1,17 @@
-# Environments
-venv/
-env/
-ENV/
-env.bak/
-venv.bak/
+# Ignore the environment binaries and libraries
+venv/Include/
+venv/Lib/
+venv/pyvenv.cfg
+
+# Ignore binaries in Scripts but allow our source code
+venv/Scripts/*.exe
+venv/Scripts/*.dll
+venv/Scripts/*.pyc
+venv/Scripts/activate*
+venv/Scripts/Deactivate.ps1
+venv/Scripts/pip*
+venv/Scripts/python*
+venv/Scripts/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -16,9 +24,4 @@ __pycache__/
 
 # OS generated files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
